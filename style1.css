@@ -1,16 +1,55 @@
-h1{font-family: 'Marko One', serif; font-size: 1.5em; color : #993399; text-shadow:.2em .2em #D3D3D3; font-weight: bold;}
 body{font-family : "Verdana";}
-span.label{color: #808080;}
-span.price{font-family: "Georgia"; font-size: 1em;color: #808080;font-style: italic;}
-h2{color : #CC6600;letter-spacing: 8px; text-align: center;text-transform: uppercase;}
-dt{color:#A0522D;font-weight: bold;}
-dt>strong{color:#FF6347;font-style: italic;}
-dd{color : grey;}
-p.warning{color:#FF0000;}
-#div1{text-align: center;}
-ul{list-style-type: none;}
-p{font-family: "Verdana";color:grey;font-size: 0.875rem;}
-li.c1{list-style: lower-roman;}
-li.c2{list-style: circle;}
-li.c3{list-style: disc;list-style-position: inside;}
-li.c4{list-style-position: outside;font-size: 2rem;list-style-image:url(images/bull.PNG);}
+h1{
+    font-family: "Marko One" , Georgia;
+    font-size: 1.5 em;
+    color : #993399;
+    text-shadow:.2m .2m #D3D3D3
+}
+h2{
+    font-size: 1 em ;
+    letter-spacing: 8px;
+    color:#CC6600;
+    text-transform: uppercase;
+    text-align: center;
+}
+#appetizers ul{
+    list-style-type: none;
+}
+#div1{
+    text-align: center;
+}
+#info p{
+    color:#D3D3D3
+}
+#info span.label{
+    color:#808080
+}
+dt{
+    color:#A0522D;
+}
+strong{
+    color:#FF6347;
+}
+p.warning{
+    color:#FF6347;
+    font-size: xx-small;
+}
+span.price{
+    color:#D3D3D3;
+}
+ul li.c1{
+    list-style-type: lower-roman;
+}
+ul li.c2{
+    list-style-type: circle;
+}
+li.c3{
+    list-style: disc;
+    list-style-position: inside;
+}
+li.c4{
+    list-style-image: url(C:/Users/augus/Desktop/tp2Input/tp2Input/images/bull.PNG);
+    list-style-position: inside;
+    font-weight: 900;
+    font-size: xx-large;
+}

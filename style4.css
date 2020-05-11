@@ -1,2 +1,11 @@
-body{background-image: url(images/blackgoose.png);background-attachment: fixed;background-repeat: no-repeat;background-position: center;}
-#div1{background-image: url(images/purpledot.png),url(images/purpledot.png), url(images/gooseshadow.png);background-position: left, right, 75%100%;background-repeat: repeat-y, repeat-y, no-repeat;background-size: 0.875rem,0.875rem,1.5rem;}
+#div1{
+    background-image: url(C:/Users/augus/Desktop/tp2Input/tp2Input/images/purpledot.png) , url(C:/Users/augus/Desktop/tp2Input/tp2Input/images/gooseshadow.png) , url(C:/Users/augus/Desktop/tp2Input/tp2Input/images/purpledot.png);
+    background-position: left, 80% 100%, right ;
+    background-repeat: repeat-y , no-repeat, repeat-y;
+}
+body{
+    background-image: url(C:/Users/augus/Desktop/tp2Input/tp2Input/images/blackgoose.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
